@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-Chatbot-d24f3599-df35-403d-867c-df3aadc56918</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.0-rc.1.25451.107" />
+    <PackageReference Include="Aspire.Qdrant.Client" Version="9.5.0" />
+    <PackageReference Include="CommunityToolkit.Aspire.OllamaSharp" Version="9.8.0" />
+    <PackageReference Include="Microsoft.Extensions.AI" Version="9.9.0" />
+    <PackageReference Include="Discord.Net" Version="3.16.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceDefaults\ServiceDefaults.csproj" />
+  </ItemGroup>
+</Project>
