@@ -9,7 +9,7 @@ builder.AddServiceDefaults();
 builder.AddQdrantClient("gunnar-db");
 
 // Add Ollama client for embeddings and AI inference
-builder.AddOllamaClientApi("gunnar-ai")
+builder.AddOllamaApiClient("gunnar-ai")
     .AddEmbeddingGenerator();
 
 // Register custom services

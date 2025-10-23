@@ -8,6 +8,7 @@ var builder = DistributedApplication.CreateBuilder(args);
 var db = builder.AddQdrant("gunnar-db");
 
 var ai = builder.AddOllama("gunnar-ai")
+		.WithGPUSupport(OllamaGpuVendor.Nvidia)
     .AddModel("nomic-embed-text");
 
 var chatbot = builder.AddProject<Projects.Chatbot>("chatbot")
