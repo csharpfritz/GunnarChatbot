@@ -94,4 +94,31 @@ public class ProductData
     /// Source URL where the product data was crawled from
     /// </summary>
     public string SourceUrl { get; set; } = string.Empty;
+
+    // Shopify-specific identifiers
+    
+    /// <summary>
+    /// Shopify Product ID (numeric identifier)
+    /// </summary>
+    public string ShopifyProductId { get; set; } = string.Empty;
+    
+    /// <summary>
+    /// Shopify Global ID (gid://shopify/Product/{id})
+    /// </summary>
+    public string ShopifyGid { get; set; } = string.Empty;
+    
+    /// <summary>
+    /// Currently selected Shopify variant ID
+    /// </summary>
+    public string SelectedVariantId { get; set; } = string.Empty;
+    
+    /// <summary>
+    /// List of all Shopify variant IDs for this product
+    /// </summary>
+    public List<string> ShopifyVariantIds { get; set; } = new();
+    
+    /// <summary>
+    /// Product vendor/manufacturer (from Shopify)
+    /// </summary>
+    public string Vendor { get; set; } = string.Empty;
 }
