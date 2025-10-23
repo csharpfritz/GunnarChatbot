@@ -299,17 +299,6 @@ Detailed information about specific lens types and their benefits:
 }
 ```
 
-#### Lens Compatibility Matrix
-Different Gunnar frames support different lens options. This matrix helps determine what lens types are available for each product:
-
-| Frame Model | Amber | Clear | Dark Amber | Prescription | Sunglass | Photochromic |
-|-------------|-------|-------|------------|--------------|----------|--------------|
-| Intercept   | ✓     | ✓     | ✓          | ✓            | ✓        | ✓            |
-| Siege       | ✓     | ✓     | ✓          | ✓            | ✓        | ✓            |
-| Vayper      | ✓     | ✓     | ✗          | ✓            | ✓        | ✗            |
-| Cruz        | ✓     | ✓     | ✗          | ✓            | ✓        | ✓            |
-| Haus        | ✓     | ✓     | ✓          | ✓            | ✗        | ✗            |
-
 ### 4. Content Optimization for Embeddings
 
 #### Text Processing Pipeline
